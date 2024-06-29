@@ -39,5 +39,9 @@ var order= qty2.value.toString() + ' pc/s x '+ price2. textContent + '---//carts
 carts. textContent += order
 ---'+ product. textContent + '---
 -- Php' + (parseFloat (qty2. value) *parseFloat (price2. textConten
-atyl. addEventListener ("keyup", addOrder) :
-aty2. addEventListener ("keyup", addorder) :
+qtyl. addEventListener ("keyup", addOrder) :
+qty2. addEventListener ("keyup", addorder) :
+qty3. addEventListener ("keyup", addOrder) :
+qty4. addEventListener ("keyup", addorder) :
+qty5. addEventListener ("keyup", addOrder) :
+qty6. addEventListener ("keyup", addorder) :
