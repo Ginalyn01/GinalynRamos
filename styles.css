@@ -5,9 +5,11 @@ body {
     padding: 20px;
 }
 
-h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+.custom-heading {
+    color: red;
+    font-family: 'Lucida Calligraphy', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 hr {
