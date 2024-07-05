@@ -38,6 +38,26 @@
             display: block;
             margin: 10px auto;
         }
+        .marquee {
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            animation: scroll 10s linear infinite;
+        }
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: blink 1s step-end infinite alternate;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -45,8 +65,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                 <marquee behavior="scroll" direction="left" class="custom-heading">BUY NOW!!! </marquee>
-                 <marquee behavior="scroll" direction="left" class="custom-heading">BUY NOW!!! </marquee>
+                    <hr class="hr"/>
+                    <div class="marquee"><span>BUY NOW!!!</span></div>
+                    <div class="marquee"><span>BUY NOW!!!</span></div>
                     <h2 class="custom-heading">GINALYN'S SHOE MARKET</h2>
                 </div>
             </div>
