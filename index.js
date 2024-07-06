@@ -1,3 +1,6 @@
+
+John
+John Perez
 var product1 = document.getElementById("product1");
 var qty1 = document.getElementById("qty1");
 var price1 = document.getElementById("price1");
@@ -63,6 +66,7 @@ function addOrder() {
     }
 
     total.value = totalAmount.toFixed(2);
+    updateChange(); // Call updateChange to update the change value after total is updated
 }
 
 function updateChange() {
