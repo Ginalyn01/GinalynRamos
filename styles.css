@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: red;
     margin: 0;
     padding: 20px;
 }
 
 .custom-heading {
-    color: Brown;
+    color: brown;
     font-family: 'ENGRAVERS MT', sans-serif;
     text-align: center;
     font-weight: bold;
