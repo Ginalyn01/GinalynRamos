@@ -12,8 +12,8 @@
             margin-bottom: 20px;
         }
         .product-column img {
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
             margin-bottom: 10px;
         }
         .product-column label {
@@ -38,26 +38,6 @@
             display: block;
             margin: 10px auto;
         }
-        .marquee {
-            display: block;
-            white-space: nowrap;
-            overflow: hidden;
-            box-sizing: border-box;
-            animation: scroll 20s linear infinite;
-        }
-        .marquee span {
-            display: inline-block;
-            padding-left: 100%;
-            animation: blink 1s step-end infinite alternate;
-        }
-        @keyframes scroll {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
-        }
-        @keyframes blink {
-            0% { opacity: 1; }
-            100% { opacity: 0; }
-        }
     </style>
 </head>
 <body>
@@ -65,9 +45,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <hr class="hr"/>
-                    <div class="marquee"><span>BUY NOW!!!.............BUY NOW!!!...........BUY NOW!!!..............BUY NOW!!!</span></div>
                     <h2 class="custom-heading">GINALYN'S SHOE MARKET</h2>
+                    <hr class="hr"/>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
@@ -120,5 +99,6 @@
         </div>
     </div>
     <script src="index.js"></script>
+</script>
 </body>
 </html>
